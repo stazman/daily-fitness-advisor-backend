@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-
-  resources :journals
+  namespace :api do
+    namespace :v1 do
+      resources :journals
+    end
+  end
+  
 end
