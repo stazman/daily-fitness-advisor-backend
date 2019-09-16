@@ -1,10 +1,16 @@
 CURRENT TASKS (ongoing):
 
-DONE Changes directory maneuvering in Procfile
-DONE Successfully renders React server
-
-
+DONE Adds rack-cors gem, configuration
 
 
 
 FUTURE TASKS (ongoing):
+
+
+
+COMPLETED TASKS:
+
+DONE Changes directory maneuvering in Procfile
+DONE Successfully renders to React server
+
+
