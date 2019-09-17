@@ -1,6 +1,7 @@
 CURRENT TASKS (ongoing):
 
-DONE Adds rack-cors gem, configuration
+DONE Creates, stubs JournalInput
+
 
 
 
@@ -8,8 +9,17 @@ FUTURE TASKS (ongoing):
 
 
 
+
+
 COMPLETED TASKS:
 
+DONE Creates, stubs Journal
+DONE Creates, adds Journal link to Navbar
+DONE Adds Navbar, Journal routes to App
+DONE Adds react-router-dom
+DONE Adds store to index.js; creates, moves App to components folder
+DONE Adds redux, react-redux
+DONE Adds rack-cors gem, configuration
 DONE Changes directory maneuvering in Procfile
 DONE Successfully renders to React server
 
