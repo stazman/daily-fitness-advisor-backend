@@ -1,7 +1,7 @@
 CURRENT TASKS (ongoing):
 
-DONE Creates, stubs JournalInput
 
+DONE Adds serializer for journal
 
 
 
@@ -13,6 +13,7 @@ FUTURE TASKS (ongoing):
 
 COMPLETED TASKS:
 
+DONE Creates, stubs JournalInput
 DONE Creates, stubs Journal
 DONE Creates, adds Journal link to Navbar
 DONE Adds Navbar, Journal routes to App
