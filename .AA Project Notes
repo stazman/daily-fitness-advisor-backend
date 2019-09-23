@@ -1,18 +1,29 @@
 CURRENT TASKS (ongoing):
 
+DONE Adds pry gem; adds .DS_store files to gitignore; removes unneeded code
+DONE Renders new journal entry; removes unneeded code
 
-DONE Adds serializer for journal
 
 
 
 FUTURE TASKS (ongoing):
 
+As app gets larger:
 
-
+DONE Moves store to separate component
+DONE Adds, installs logos to manifest.json; adds relevant link to index.html
 
 
 COMPLETED TASKS:
 
+DONE Edits JournalInput for addJournalEntry action
+DONE Renders list of journal entries
+DONE Imports connect for journal feature; places JournalEntries appropriately; maps journalEntries state to props
+DONE Creates containers, actions folders; separates Journal component concerns into JournalContainer, fetchJournalEntries
+DONE Imports compose; sets up store for thunk, compose, redux devtools
+DONE Installs, imports thunk, applyMiddleware
+DONE 'Fetches persisted Journal instances successfully'
+DONE Adds serializer for journal
 DONE Creates, stubs JournalInput
 DONE Creates, stubs Journal
 DONE Creates, adds Journal link to Navbar
