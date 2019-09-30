@@ -1,21 +1,39 @@
-CURRENT TASKS (ongoing):
-
-DONE Adds pry gem; adds .DS_store files to gitignore; removes unneeded code
-DONE Renders new journal entry; removes unneeded code
+CURRENT FEATURE (ongoing):
 
 
+JOURNAL
 
 
-FUTURE TASKS (ongoing):
+CURRENT BACKEND TASKS (ongoing):
 
-As app gets larger:
 
-DONE Moves store to separate component
-DONE Adds, installs logos to manifest.json; adds relevant link to index.html
+DONE Removes individual journal entries from database
+
+
+FUTURE BACKEND TASKS (ongoing):
+
+Add date to journal feature
+
+Add advisor feature
+
+Add weight tracker feature
+
+Add resources feature
+
+Add community feature
+
 
 
 COMPLETED TASKS:
 
+
+
+
+*** Below is before frontend/backend notes separation
+
+DONE Clears new journal entry input fields after submission
+DONE Persists new journal entries to Rails backend; renders new journal entries to journal entry list on submission; removes unneeded code
+DONE Adds pry gem; adds .DS_store files to gitignore; removes unneeded code
 DONE Edits JournalInput for addJournalEntry action
 DONE Renders list of journal entries
 DONE Imports connect for journal feature; places JournalEntries appropriately; maps journalEntries state to props
@@ -34,5 +52,3 @@ DONE Adds redux, react-redux
 DONE Adds rack-cors gem, configuration
 DONE Changes directory maneuvering in Procfile
 DONE Successfully renders to React server
-
-
