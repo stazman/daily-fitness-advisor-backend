@@ -6,4 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-j1 = Journal.create!(content: "This is a test journal entry content.")
+j1 = Journal.create!(content: "This is a test journal entry.")
+j2 = Journal.create!(content: "This is another test journal entry.")
+
+r1 = Resource.create!(title: "ExRx.net", description: "Has diagrams of muscles with linked exercises for each muscle", url: "https://exrx.net/")
+
+r2 = Resource.create!(title: "Forks Over Knives", description: "Has great recipes and articles about nutrition.", url: "https://www.forksoverknives.com/")

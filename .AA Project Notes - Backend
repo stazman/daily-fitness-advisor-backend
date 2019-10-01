@@ -6,8 +6,10 @@ RESOURCES
 
 CURRENT BACKEND TASKS (ongoing):
 
+DONE Drops, migrates, seeds database for journal issues, resource
 
-DONE Creates resource
+Adds serializer, routes for resource
+
 
 
 
@@ -26,6 +28,8 @@ Add community feature
 
 COMPLETED TASKS:
 
+
+DONE Creates resource
 DONE Removes individual journal entries from database
 
 
