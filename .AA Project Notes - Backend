@@ -1,13 +1,14 @@
 CURRENT FEATURE (ongoing):
 
 
-JOURNAL
+RESOURCES
 
 
 CURRENT BACKEND TASKS (ongoing):
 
 
-DONE Removes individual journal entries from database
+DONE Creates resource
+
 
 
 FUTURE BACKEND TASKS (ongoing):
@@ -18,15 +19,14 @@ Add advisor feature
 
 Add weight tracker feature
 
-Add resources feature
-
 Add community feature
+
 
 
 
 COMPLETED TASKS:
 
-
+DONE Removes individual journal entries from database
 
 
 *** Below is before frontend/backend notes separation
