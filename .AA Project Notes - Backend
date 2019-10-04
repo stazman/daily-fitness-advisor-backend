@@ -6,9 +6,7 @@ RESOURCES
 
 CURRENT BACKEND TASKS (ongoing):
 
-
-
-DONE Adds serializer, routes for resources; namespaces resources in controller; removes unneeded, currently unused code
+DONE Reverses order of all journal entries; separates journals, resources api routes; drops, remigrates, reseeds db as part of frontend debugging efforts
 
 
 
@@ -28,6 +26,7 @@ Add community feature
 COMPLETED TASKS:
 
 
+DONE Adds serializer, routes for resources; namespaces resources in controller; removes unneeded, currently unused code
 DONE Drops, migrates, seeds database for journal issues, resource
 DONE Creates resource
 DONE Removes individual journal entries from database
