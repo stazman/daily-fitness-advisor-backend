@@ -2,7 +2,7 @@ class Api::V1::JournalsController < ApplicationController
   before_action :set_journal, only: [:show, :update, :destroy]
 
   def index
-    @journals = Journal.all.reverse
+    @journals = Journal.all
 
     render json: @journals
   end

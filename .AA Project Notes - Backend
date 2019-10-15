@@ -6,8 +6,8 @@ RESOURCES
 
 CURRENT BACKEND TASKS (ongoing):
 
-DONE Reverses order of all journal entries; separates journals, resources api routes; drops, remigrates, reseeds db as part of frontend debugging efforts
 
+DONE Returns list of all journal entries to unreversed order
 
 
 FUTURE BACKEND TASKS (ongoing):
@@ -30,6 +30,9 @@ DONE Adds serializer, routes for resources; namespaces resources in controller; 
 DONE Drops, migrates, seeds database for journal issues, resource
 DONE Creates resource
 DONE Removes individual journal entries from database
+DONE Reverses order of all journal entries; separates journals, resources api routes
+
+
 
 
 *** Below is before frontend/backend notes separation
