@@ -1,24 +1,12 @@
-# README
+**README instructions for both the frontend and backend repos for Daily Weight Advisor are found here: https://github.com/stazman/daily-weight-loss-advisor-app**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**This project currently includes the following versions:**
 
-Things you may want to cover:
+1. Ruby version 2.3.3p222  
 
-* Ruby version
+2. Bundler version 1.17.2 for this project 
 
-* System dependencies
+3. Rails version 5.2.3 for this project 
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**NOTE: There are currently no tests in this Rails app.**
