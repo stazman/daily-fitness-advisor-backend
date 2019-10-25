@@ -1,0 +1,2 @@
+class FoodAdvisor < ApplicationRecord
+end

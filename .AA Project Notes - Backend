@@ -1,13 +1,13 @@
 CURRENT FEATURE (ongoing):
 
 
-RESOURCES
+FOOD_ADVISOR
 
 
 CURRENT BACKEND TASKS (ongoing):
 
+DONE Creates food_advisor 
 
-DONE Returns list of all journal entries to unreversed order
 
 
 FUTURE BACKEND TASKS (ongoing):
@@ -31,7 +31,7 @@ DONE Drops, migrates, seeds database for journal issues, resource
 DONE Creates resource
 DONE Removes individual journal entries from database
 DONE Reverses order of all journal entries; separates journals, resources api routes
-
+DONE Returns list of all journal entries to unreversed order
 
 
 

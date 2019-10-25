@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  how_big_meals: MyString
+  how_much_snacked: MyString
+  how_healthy: MyString
+
+two:
+  how_big_meals: MyString
+  how_much_snacked: MyString
+  how_healthy: MyString
