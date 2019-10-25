@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_01_200130) do
+ActiveRecord::Schema.define(version: 2019_10_25_021217) do
+
+  create_table "food_advisors", force: :cascade do |t|
+    t.integer "how_big_meals"
+    t.integer "how_much_snacked"
+    t.integer "how_healthy"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "journals", force: :cascade do |t|
     t.text "content"
