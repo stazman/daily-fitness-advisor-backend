@@ -7,7 +7,8 @@ FOOD_ADVISOR
 CURRENT BACKEND TASKS (ongoing):
 
 
-DONE Migrates, seeds db for food_advisor
+DONE Adds serializer, routes for food_advisors; namespaces food_advisors in controller
+
 
 
 FUTURE BACKEND TASKS (ongoing):
@@ -32,7 +33,8 @@ DONE Creates resource
 DONE Removes individual journal entries from database
 DONE Reverses order of all journal entries; separates journals, resources api routes
 DONE Returns list of all journal entries to unreversed order
-DONE Creates food_advisor 
+DONE Creates food_advisor
+DONE Migrates, seeds db for food_advisor 
 
 
 

@@ -1,4 +1,4 @@
-class FoodAdvisorsController < ApplicationController
+class Api::V1::FoodAdvisorsController < ApplicationController
   before_action :set_food_advisor, only: [:show, :update, :destroy]
 
   def index
