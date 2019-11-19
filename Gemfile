@@ -26,7 +26,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'foreman', '~> 0.82.0'
 
-gem 'rack-cors'
+gem "rack-cors", ">= 1.0.4"
 
 gem 'fast_jsonapi'
 
