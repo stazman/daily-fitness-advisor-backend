@@ -1,21 +1,19 @@
 CURRENT FEATURE (ongoing):
 
-
-FOOD_ADVISOR
+JOURNALS
 
 
 CURRENT BACKEND TASKS (ongoing):
 
+Add date to journal feature
 
-DONE Adds serializer, routes for food_advisors; namespaces food_advisors in controller
+  DONE Adds, migrates date to journals
 
 
 
 FUTURE BACKEND TASKS (ongoing):
 
-Add date to journal feature
 
-Add advisor feature
 
 Add weight tracker feature
 
@@ -35,6 +33,7 @@ DONE Reverses order of all journal entries; separates journals, resources api ro
 DONE Returns list of all journal entries to unreversed order
 DONE Creates food_advisor
 DONE Migrates, seeds db for food_advisor 
+DONE Adds serializer, routes for food_advisors; namespaces food_advisors in controller
 
 
 

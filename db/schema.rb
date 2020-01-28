@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_25_021217) do
+ActiveRecord::Schema.define(version: 2020_01_28_010654) do
 
   create_table "food_advisors", force: :cascade do |t|
-    t.integer "how_big_meals"
-    t.integer "how_much_snacked"
-    t.integer "how_healthy"
+    t.string "how_big_meals"
+    t.string "how_much_snacked"
+    t.string "how_healthy"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2019_10_25_021217) do
     t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "date"
   end
 
   create_table "resources", force: :cascade do |t|
