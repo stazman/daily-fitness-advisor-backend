@@ -1,4 +1,4 @@
 class JournalSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :content
+  attributes :content, :date
 end

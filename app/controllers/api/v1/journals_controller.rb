@@ -42,6 +42,6 @@ class Api::V1::JournalsController < ApplicationController
   end
 
   def journal_params
-    params.require(:journal).permit(:content)
+    params.require(:journal).permit(:content, :date)
   end
 end
