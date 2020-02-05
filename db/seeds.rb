@@ -13,4 +13,7 @@
 
 # r2 = Resource.create!(title: "Forks Over Knives", description: "Has great recipes and articles about nutrition.", url: "https://www.forksoverknives.com/")
 
-fa1 = FoodAdvisor.create!(how_big_meals: 2, how_much_snacked: 2, how_healthy: 2)
+# fa1 = FoodAdvisor.create!(how_big_meals: 2, how_much_snacked: 2, how_healthy: 2)
+
+j3 = Journal.create!(content: 'This is first journal entry with date', date: 'February 5, 2020')
+
