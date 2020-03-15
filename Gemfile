@@ -30,6 +30,11 @@ gem "rack-cors", ">= 1.0.4"
 
 gem 'fast_jsonapi'
 
+gem 'omniauth', '~> 1.3.1'
+gem 'omniauth-auth0', '~> 1.4.1'
+
+gem 'dotenv-rails', require: 'dotenv/rails-now', group: [:development, :test]
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
