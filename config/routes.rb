@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :profiles
+    end
+  end
+
+  namespace :api do
+    namespace :v1 do
       resources :food_advisors
     end
   end
@@ -11,7 +17,7 @@ Rails.application.routes.draw do
       resources :journals
     end
   end
-  
+
   namespace :api do
     namespace :v1 do
       resources :resources
