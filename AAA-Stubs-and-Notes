@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+rails g scaffold profile first_name:string last_name:string middle_name:string username:string email:string
+
+
+COPY food_advisors
+	FROM '/Volumes/Extra Storage for Blue Mac/AAA-Projects/DWLA/daily-weight-loss-advisor-backend/food_advisors.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+COPY journals FROM '/Volumes/Extra Storage for Blue Mac/AAA-Projects/DWLA/daily-weight-loss-advisor-backend/journals.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+COPY resources FROM '/Volumes/Extra Storage for Blue Mac/AAA-Projects/DWLA/daily-weight-loss-advisor-backend/resources.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+.headers on
+.mode csv
+.once 'table_name.csv'
+SELECT * FROM table_name;
+
+Set up Postgres
+
+Set up Auth0
+
+
+
+set time zone 'UTC';
+DROP TABLE IF EXISTS reviews;
+DROP TABLE IF EXISTS artists;
+DROP TABLE IF EXISTS genres;
+DROP TABLE IF EXISTS labels;
+/*DROP TABLE IF EXISTS years;*/
+DROP TABLE IF EXISTS contents;
+
+CREATE TABLE IF NOT EXISTS reviews (
+    reviewid INTEGER,
+    title TEXT,
+    artist TEXT,
+    url TEXT,
+    score NUMERIC,
+    best_new_music INTEGER,
+    author TEXT,
+    author_type TEXT,
+    pub_date timestamp,
+    pub_weekday INTEGER,
+    pub_day INTEGER,
+    pub_month INTEGER,
+    pub_year INTEGER
+);
+
+COPY reviews
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/reviews.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+CREATE TABLE IF NOT EXISTS artists (
+    reviewid INTEGER,
+	artist TEXT
+);
+
+COPY artists
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/artists.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+
+CREATE TABLE IF NOT EXISTS genres (
+    reviewid INTEGER,
+	genre TEXT
+);
+
+COPY genres
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/genres.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+
+CREATE TABLE IF NOT EXISTS labels (
+    reviewid INTEGER,
+	label TEXT
+);
+
+COPY labels
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/labels.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+
+/*
+CREATE TABLE years (
+    reviewid INTEGER,
+	year INTEGER
+);
+
+COPY years
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/years.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
+*/
+
+CREATE TABLE contents (
+    reviewid INTEGER,
+	contents TEXT
+);
+
+COPY contents
+	FROM '/Users/shravan/Downloads/sqlite-tools-osx-x86-3310100/content.csv' (DELIMITER ',', FORMAT CSV, HEADER, NULL 'NA');
