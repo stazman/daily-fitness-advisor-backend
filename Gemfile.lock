@@ -108,7 +108,7 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nio4r (2.5.7)
+    nio4r (2.5.8)
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -134,7 +134,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (4.3.11)
+    puma (4.3.12)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -209,7 +209,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection (~> 0.1)
   pg
   pry
-  puma (~> 4.3.11)
+  puma (~> 4.3.12)
   rack-cors (>= 1.0.4)
   rails (~> 5.2.3)
   spring
